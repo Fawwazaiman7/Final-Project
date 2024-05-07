@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84A7C839-A1EA-A840-1D02-46AFF3543A50" name="rencana_konsulv1">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>4FECF3FB-8968-30DC-E4EE-215C678C03F9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_urut" id="FD8CF280-68BE-36C1-0CC7-0114D8324B9F">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>88D33833-3F17-2F32-123F-7408B432BF5D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1230A370-C6D9-22B6-0DC4-D79503C1E899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tagihan_tagihan_id" id="4BC9B7E1-811A-E0C3-04F6-6BA013E5A8E8">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>06687103-9330-35DF-F48D-94C11B376AF2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73E4AC04-0BBD-007A-5B39-52BBAF8FC580</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="poliklinik rekam medis FK" directorySegmentName="seg_0" id="1D4039EE-C255-A06D-4355-C8617C79F022">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>961BA283-EF25-BA77-B2C4-0F4AB57B35D3</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<sourcePk>F801C418-F690-4925-DFDA-01660779F544</sourcePk>
+<dominantRole>2EFFFC32-7D94-31F1-48A4-B03C78245188</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2EFFFC32-7D94-31F1-48A4-B03C78245188</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CB597244-975B-80AE-5567-F0AC01FD6051</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

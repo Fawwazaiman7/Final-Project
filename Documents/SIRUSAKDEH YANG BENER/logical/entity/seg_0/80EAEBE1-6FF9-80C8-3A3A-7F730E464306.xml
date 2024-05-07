@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80EAEBE1-6FF9-80C8-3A3A-7F730E464306" name="penanggung biaya">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>4FBB0292-0E1C-F4ED-FB93-7BE3C2BE4824</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nama" id="F7E39397-FAE7-1D14-8FA1-ECB9C2184104">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>424F0840-542B-A4CE-7A6A-F31C935BB43E</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB6D3FD1-EACF-7ECC-0831-431C3789F3E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kelamin" id="05555EC7-DD6D-D90A-F5D6-D50951B93D8A">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>D29ADD4B-CF6E-828C-CE0C-59B7B5B0ED7B</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6CE5A074-D9D0-D26E-266D-E93E72BAD43B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="1372592E-A3FB-4BFC-3040-D367C3F09DE2">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>64475D99-8E37-7C54-F158-5A0B748F0494</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F6A751C1-D5F6-48D2-4F30-0D5F4337F329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pekerjaan" id="E7F32190-6F4A-E995-AB19-7F30C091650F">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>C5978C08-105A-B838-2FA5-F1DE0692969D</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB6D3FD1-EACF-7ECC-0831-431C3789F3E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hub dengan pasien" id="7352AC1C-5AAC-9827-A3B5-173AD3F45032">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>D865A765-2F81-67A1-1218-EA416117246C</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB6D3FD1-EACF-7ECC-0831-431C3789F3E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no telepon" id="1A5F64C6-BE1C-A51A-CBC9-318F5893DA63">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>CE79783D-F0FF-686D-3848-0BF77C5A01F2</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>62BF5419-07A7-AEC0-BEF4-DDE003985A6E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal lahir" id="EB1C41BF-B1C3-D3AD-55C4-3CF5987F94FF">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>F1829F98-20B2-3FD1-6D86-28737F19F2A5</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6E05A14B-5177-4FFE-49A5-C895B1D6074A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasien id" id="2A2A0CDA-A851-508E-5693-5201A05D233D">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>74F846EB-4F11-E0FC-63A7-47A6ABE3025A</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<referedAttribute>AD4C1D36-58CF-D739-B798-B3E6E60479D5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1230A370-C6D9-22B6-0DC4-D79503C1E899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE69C282-96F1-1FDA-AC02-341E10399347" name="penanggung_biaya_PK">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>7083F0CD-0825-7931-5AF2-FF0C3AB99348</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A5F64C6-BE1C-A51A-CBC9-318F5893DA63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

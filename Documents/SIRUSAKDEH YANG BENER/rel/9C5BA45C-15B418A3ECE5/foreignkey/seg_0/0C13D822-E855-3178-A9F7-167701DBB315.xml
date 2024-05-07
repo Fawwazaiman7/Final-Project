@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C13D822-E855-3178-A9F7-167701DBB315" containerWithKeyObject="2EE468C1-07C3-0C6C-C3BF-EC83C8E3A81F" localFKIndex="AB3D7E72-4AAA-62EA-D939-1B780580578A" name="tagihan_alat_FK">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>01700424-5972-648C-0CD5-ED9E5BC392D6</importedID>
+<referredTableLongName>alat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>801DED4A-79DF-06F0-60E7-2B2CFDC70E8A</referredTableID>
+<keyObject>847387C6-DE46-607E-42E8-128F778BB210</keyObject>
+<referredKeyID>847387C6-DE46-607E-42E8-128F778BB210</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>alat_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37FFCE6D-BDF0-71A9-13D2-EEBB8D67992A" name="pegawaiv1">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>83033961-152A-3496-500D-4CBD2275B2D5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_ktp" id="D70DD26D-3A43-7977-7C60-E9CE24DB5A7A">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>8F82DFF4-BFBA-E121-6218-10AB41E33433</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1230A370-C6D9-22B6-0DC4-D79503C1E899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nip" id="FB3A9946-A8BA-E4A3-1265-62471532C731">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>AE7BCF8B-4B1D-BE98-CAD5-F751F1280934</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1230A370-C6D9-22B6-0DC4-D79503C1E899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spesialisasi" id="75E87324-95EF-9605-00CA-4B4529BA3609">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>093926E5-708D-67C2-2506-5341F8477D3E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB6D3FD1-EACF-7ECC-0831-431C3789F3E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jabatan" id="C9B69A70-82CC-41FE-7CDE-6B29D6923F81">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>C9997DD1-3D8C-4CBE-42BF-F7F9E17E107E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB6D3FD1-EACF-7ECC-0831-431C3789F3E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_telepon" id="997F9214-3A0C-4970-69A6-7E8D3FE7EE08">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>FE562100-5A3B-1ED8-024E-202A4693ACC4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>62BF5419-07A7-AEC0-BEF4-DDE003985A6E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_lahir" id="EA8C7ADB-170C-C0ED-38D0-D860382A0744">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>82AFCC56-BE83-F196-6274-0531D273243E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6E05A14B-5177-4FFE-49A5-C895B1D6074A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="79372716-434E-6A78-CFED-E5340AF80C75">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>4936C432-AB95-0311-B73E-9DE2DB348695</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB6D3FD1-EACF-7ECC-0831-431C3789F3E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="0397E915-F49F-DA0C-99A2-0B91D5616C6D">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>80BB6E0B-66B2-7E0C-EED0-DC42F263CF9B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F6A751C1-D5F6-48D2-4F30-0D5F4337F329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="akun_username" id="223CE03E-87D7-1EF4-63CC-D3D63E01CC61">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>592DF226-75B5-F018-F07C-179E8025AA14</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB6D3FD1-EACF-7ECC-0831-431C3789F3E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="akun_password" id="5A9828DA-8FD0-F29E-E09B-ECA86130FDC8">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>A63D57C6-173D-4C5E-72A2-500CA38164EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F6A751C1-D5F6-48D2-4F30-0D5F4337F329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poliklinik_poliklinik_id" id="C77C1D4C-B529-6DC0-5432-BA2CEC7393A0">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>B97F0ED3-19EA-E113-4515-1B60DAD3A9BB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73E4AC04-0BBD-007A-5B39-52BBAF8FC580</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

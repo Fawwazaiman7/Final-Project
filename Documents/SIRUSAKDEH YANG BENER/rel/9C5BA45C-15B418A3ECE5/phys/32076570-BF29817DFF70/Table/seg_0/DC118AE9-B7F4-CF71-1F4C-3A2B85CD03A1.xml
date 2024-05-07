@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="penanggung_biayav1" directorySegmentName="seg_0" id="DC118AE9-B7F4-CF71-1F4C-3A2B85CD03A1">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="kelamin" id="057E745F-F5EB-9131-47C9-FD72DF57AC6C">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pekerjaan" id="06B6DBC8-8B2E-F55B-C0CC-30F61F658E88">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alamat" id="1356E016-A6B8-DA36-D409-6C925A7444D1">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_telepon" id="373A80DC-8DD6-0172-9733-1358691EB98B">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nama" id="9200922E-B8EF-5124-753E-F7EA1F34C9D3">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pasien_id" id="AA0A3F23-BD50-53C4-4C38-68F6BB598923">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="hub_dengan_pasien" id="B8415F02-F53F-1117-A19E-20AE7154B76F">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal_lahir" id="F667DE52-89CF-DACF-D9CE-AD1E74628DE9">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:33 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

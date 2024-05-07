@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pegawai akun FK" directorySegmentName="seg_0" id="4BC0B5D1-0DF1-3012-3170-0C2CA874DEEB">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>A4F3F046-4E1C-3C7A-285A-BDD38F4694DE</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<sourcePk>71778459-62B6-DC52-4BE3-F8E81AE62C81</sourcePk>
+<dominantRole>1EBD57A7-5A3C-7558-2709-CC6BFF1B2D30</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1EBD57A7-5A3C-7558-2709-CC6BFF1B2D30</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E00C5890-AD38-CE38-6CA0-17A3B7BCBB15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

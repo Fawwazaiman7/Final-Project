@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="fkntm_penanggung_biaya" directorySegmentName="seg_0" id="F71FEE66-9C99-7F8A-607D-F02923A5908F">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:48 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    raise_application_error(-20225, 'Non Transferable FK constraint  on table penanggung_biaya is violated');
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>A8FDB686-C305-7262-58EF-E009CD278729</columns>
+<scope>FOR EACH STATEMENT</scope>
+<table>4FBB0292-0E1C-F4ED-FB93-7BE3C2BE4824</table>
+</TriggerOraclev10g>

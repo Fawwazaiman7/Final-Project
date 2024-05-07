@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIRUSAKDEH YANG BENER" id="B904CC9F-2D9A-70D0-DEB6-3D5DEA0D0DED" version="3.5">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 12:43:17 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B904CC9F-2D9A-70D0-DEB6-3D5DEA0D0DED</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="11795910-D5F6-AE30-2D3B-A105A0AAE6C1">
+<designStoragePath>C:\DDL SIRUSAKDEH</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C5E76347-53A8-0F75-9853-B2569E58C624">
+<designStoragePath>C:\DDL SIRUSAKDEH</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="48806734-CFB8-CAB3-EB0E-3153C2012956">
+<designStoragePath>C:\DDL SIRUSAKDEH</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

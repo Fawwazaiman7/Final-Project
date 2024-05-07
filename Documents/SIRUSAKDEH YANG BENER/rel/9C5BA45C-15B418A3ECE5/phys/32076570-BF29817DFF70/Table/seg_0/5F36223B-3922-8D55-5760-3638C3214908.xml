@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="akun" directorySegmentName="seg_0" id="5F36223B-3922-8D55-5760-3638C3214908">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="password" id="C66AD7B4-4D63-F775-275C-981444C21DE4">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="username" id="DADBE70D-89A6-C281-BA77-B474DA73D0FF">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="akun_pk" id="CB1BECD1-7591-B961-D75A-9169B9D4E599">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

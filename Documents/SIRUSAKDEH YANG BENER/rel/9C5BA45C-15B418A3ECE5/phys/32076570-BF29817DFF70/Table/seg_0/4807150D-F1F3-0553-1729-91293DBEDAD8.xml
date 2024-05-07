@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="pasien" directorySegmentName="seg_0" id="4807150D-F1F3-0553-1729-91293DBEDAD8">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="alamat" id="161EA879-513A-5BA2-3F0E-34AA67619607">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="penanggung_biaya_no_telepon" id="349E85EA-5165-1E67-6B39-5FE7ED078608">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="resep_resep_id" id="65A6A7BC-7C10-0047-556A-6C0511A9FAB6">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_telepon" id="6C6AA083-8BF3-A5B6-43EF-04A6A8D707E3">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal_lahir" id="6C7FDBA9-CA64-FCAF-C448-736A6CD680AD">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jenis_kelamin" id="71F779AC-0156-3F8F-0348-31C3030FF20C">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="939FC41E-2EFA-1769-7FE0-4A12F2E52348">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nama" id="BD39BE7E-A763-E52A-9D1B-6A9992A56453">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="pasien__idx" id="6A03A003-4D9C-A2D2-9CA8-1B44B90DEC18">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="pasien__idxv1" id="AF33991C-4517-CADD-8CDB-88805218DB62">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="pasien_penanggung_biaya_fk" id="61A56576-89EC-54B3-785C-B9E73E739C88">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="pasien_resep_fk" id="80508783-B5C2-3E83-71A3-DB877B7DF126">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pasien_pk" id="DF7CD859-ACD4-F29E-76D0-9EF7AD408F05">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

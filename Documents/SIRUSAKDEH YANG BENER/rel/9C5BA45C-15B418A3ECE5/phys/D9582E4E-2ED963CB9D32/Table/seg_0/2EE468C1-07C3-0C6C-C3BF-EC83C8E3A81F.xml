@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="tagihan" directorySegmentName="seg_0" id="2EE468C1-07C3-0C6C-C3BF-EC83C8E3A81F">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="harga_jenis" id="3ED9A6EE-1E36-7631-8A14-86FA269762EC">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="harga_konsultasi" id="44E10C8A-0128-5507-5842-BBA0DFC38842">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="harga_alat" id="53A2AAF5-A3FA-E011-1F88-052DFA05F1AF">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alat_alat_id" id="55DDC809-7B51-DBFC-3CD0-83ABD3F161C8">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="harga_resep" id="6A609FDE-BBD5-679A-0EB9-360E3B11D95B">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pasien_id" id="80361661-77DB-8329-C2EC-2352E29D671A">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jenis_pembayaran" id="A72E910C-8413-D691-42BE-BBDB03251B93">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tagihan_id" id="CC046BA0-922F-705F-6DDC-2617A03F61EE">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="tagihan_alat_FK" id="AB3D7E72-4AAA-62EA-D939-1B780580578A">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="tagihan_pasien_fk" id="DB4E8499-B81C-4C4D-0A2F-6DA66A8709C0">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tagihan_PK" id="5DC175DD-F972-8099-09C9-A98CB726C5DC">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

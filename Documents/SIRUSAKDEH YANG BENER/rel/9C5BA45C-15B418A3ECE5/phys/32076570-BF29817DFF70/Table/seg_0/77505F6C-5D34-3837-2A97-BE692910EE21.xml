@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="rekam_medis" directorySegmentName="seg_0" id="77505F6C-5D34-3837-2A97-BE692910EE21">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="poliklinik_poliklinik_id" id="2D9ED231-1A12-CB80-211A-78B7DAC89562">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pasien_id" id="6B8BFB89-D3C1-7B8F-DB43-43340E010125">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_rm" id="A971B2BA-3276-8042-B913-03CB227B8B0A">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal" id="DE3F8FF0-F055-E294-CAB3-66B886AFDE5D">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="diagnosa" id="EDE93A1C-FD22-90D8-DA55-E5DEDB688498">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="rekam_medis__idxv1" id="C2BE61B0-EDEA-5A5A-6A9D-1CF65A29CFDF">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="rekam_medis__idx" id="E665762F-1B2E-5D1C-0C07-4F6559870458">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="rekam_medis_pasien_fk" id="76B3D83C-B2AD-A660-99AF-B3CDE4B077C7">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="rekam_medis_poliklinik_fk" id="91D071EB-70F1-F09A-7BF0-251E8D8A7F8E">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="rekam_medis_pk" id="8D07DAD4-5899-DB6B-6B5F-6BC67B80D6F3">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-05-04 04:40:12 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pegawai poliklinik FK" directorySegmentName="seg_0" id="EF596B34-36F6-C6F0-1F0C-FD31DA3EF165">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>EC915D5B-5930-9C5F-6807-A8BBF9CFB725</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<sourcePk>6E9FA3FC-8016-6050-69AE-8EF49527B00F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB597244-975B-80AE-5567-F0AC01FD6051</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E00C5890-AD38-CE38-6CA0-17A3B7BCBB15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

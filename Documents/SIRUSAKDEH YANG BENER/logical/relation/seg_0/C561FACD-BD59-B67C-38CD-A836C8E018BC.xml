@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rekam medis pasien FK" directorySegmentName="seg_0" id="C561FACD-BD59-B67C-38CD-A836C8E018BC">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>48F22A03-186E-2E11-854E-2624622A58C5</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<sourcePk>279A92B7-F006-0A6F-ADC5-1BCACEF2A88B</sourcePk>
+<dominantRole>D9415C1A-F609-E1CC-BAFF-59F8660C02F0</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9415C1A-F609-E1CC-BAFF-59F8660C02F0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2EFFFC32-7D94-31F1-48A4-B03C78245188</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

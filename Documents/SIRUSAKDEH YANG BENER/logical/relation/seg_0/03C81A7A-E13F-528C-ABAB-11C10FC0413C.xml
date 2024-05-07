@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rencana konsul tagihan FK" directorySegmentName="seg_0" id="03C81A7A-E13F-528C-ABAB-11C10FC0413C">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>45C71625-F868-243D-1673-294AA9EDCC70</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<sourcePk>0B4DA3A7-A3B7-3198-5B1D-31C9FB0680F8</sourcePk>
+<dominantRole>8A95D4DC-A4AB-3770-1FEB-21CA0CB6BD2F</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A95D4DC-A4AB-3770-1FEB-21CA0CB6BD2F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>41D070CA-96AC-3E8F-DAFF-E0726FCBD43F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

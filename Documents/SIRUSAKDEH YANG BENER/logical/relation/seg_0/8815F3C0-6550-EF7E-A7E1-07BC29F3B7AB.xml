@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pasien resep FK" directorySegmentName="seg_0" id="8815F3C0-6550-EF7E-A7E1-07BC29F3B7AB">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>D073A127-7296-AF3E-6090-CEC314BDD917</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<sourcePk>024E25E0-DB39-4345-9955-C194649757AD</sourcePk>
+<dominantRole>A3A61591-80B8-B2C2-52BA-30853AB847E0</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3A61591-80B8-B2C2-52BA-30853AB847E0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D9415C1A-F609-E1CC-BAFF-59F8660C02F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

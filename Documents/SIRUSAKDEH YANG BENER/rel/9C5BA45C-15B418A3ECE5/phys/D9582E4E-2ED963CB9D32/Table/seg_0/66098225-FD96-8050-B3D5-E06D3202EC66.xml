@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="jadwal" directorySegmentName="seg_0" id="66098225-FD96-8050-B3D5-E06D3202EC66">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pasien_id" id="2FC338FC-5E8D-5E44-D094-47DF98DD3E73">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pegawai_no_ktp" id="30302A66-03CA-220A-1E54-A3187564FAC2">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jadwal" id="6A93C09F-7C70-B1E5-6081-BFC7E410A549">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pegawai_nip" id="8FD897FC-CD43-14D0-17D4-C4F76BD99A78">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pegawai_no_telepon" id="D90A1228-F2D3-AFE4-7B59-85CDF207F094">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="jadwal__idx" id="96C82F8C-38C6-E237-04D8-79B833328DD4">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="jadwal_pegawai_FK" id="1BD0DEC7-97DF-E2C5-930B-82EE447A2B84">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="jadwal_pasien_FK" id="E2F11277-4164-66BA-904D-2461C1C59F79">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev10g>

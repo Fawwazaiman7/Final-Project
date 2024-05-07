@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tagihan pasien FK" directorySegmentName="seg_0" id="649596A1-380E-F583-72EC-E4CDC7C50624">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-25 09:49:06 UTC</createdTime>
+<generatorID>56364B6F-68C4-BBBD-5236-942C9B746720</generatorID>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<engineerTo>
+<item key="9C5BA45C-10B0-7062-FD06-15B418A3ECE5" value="true"/>
+</engineerTo>
+<sourcePk>279A92B7-F006-0A6F-ADC5-1BCACEF2A88B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9415C1A-F609-E1CC-BAFF-59F8660C02F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A95D4DC-A4AB-3770-1FEB-21CA0CB6BD2F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="alat" directorySegmentName="seg_0" id="801DED4A-79DF-06F0-60E7-2B2CFDC70E8A">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nama_alat" id="0E7AC934-49EC-224C-FF59-D8910232DE91">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alat_id" id="3B992EF1-61D8-4861-CA5C-2D333FEB1105">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jumlah" id="DC015091-3949-5F99-02E9-ADF777369CF6">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="alat_PK" id="847387C6-DE46-607E-42E8-128F778BB210">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:08:29 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

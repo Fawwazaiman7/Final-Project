@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="45C71625-F868-243D-1673-294AA9EDCC70" containerWithKeyObject="DA432814-8F02-58D4-3404-EEEEB0FAFB7F" localFKIndex="968C110C-D6A8-E2FE-C752-ED4153DF7B1F" name="rencana_konsul_tagihan_FK">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>2D3A5961-73CB-B202-004E-EF2FAA52DE79</importedID>
+<referredTableLongName>tagihan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2EE468C1-07C3-0C6C-C3BF-EC83C8E3A81F</referredTableID>
+<keyObject>5DC175DD-F972-8099-09C9-A98CB726C5DC</keyObject>
+<referredKeyID>5DC175DD-F972-8099-09C9-A98CB726C5DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tagihan_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

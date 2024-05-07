@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC915D5B-5930-9C5F-6807-A8BBF9CFB725" containerWithKeyObject="D9E574F7-28AB-C45E-F21A-84ED0B18ED29" localFKIndex="C3812C11-981C-F680-AD0D-20F7C5D83339" name="pegawai_poliklinik_FK">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>F37F3751-27E2-89D4-EEF2-BDE7789C08AE</importedID>
+<referredTableLongName>poliklinik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA1228A4-85EF-135C-4ECE-E8FD9DFCD300</referredTableID>
+<keyObject>7617515C-32FC-A76C-26C8-35E152F93B50</keyObject>
+<referredKeyID>7617515C-32FC-A76C-26C8-35E152F93B50</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>poliklinik_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

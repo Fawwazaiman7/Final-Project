@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4F3F046-4E1C-3C7A-285A-BDD38F4694DE" containerWithKeyObject="D9E574F7-28AB-C45E-F21A-84ED0B18ED29" localFKIndex="5A406985-8DFA-54BD-8992-2DEB4C0D6BEE" name="pegawai_akun_FK">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>6A8516C7-C5EB-C0B6-61F8-814DAAF63207</importedID>
+<referredTableLongName>akun</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F36223B-3922-8D55-5760-3638C3214908</referredTableID>
+<keyObject>CB1BECD1-7591-B961-D75A-9169B9D4E599</keyObject>
+<referredKeyID>CB1BECD1-7591-B961-D75A-9169B9D4E599</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>username,password</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66098225-FD96-8050-B3D5-E06D3202EC66" name="jadwal">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>7BF3917F-E673-B056-722F-A6221F108F57</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jadwal" id="6A93C09F-7C70-B1E5-6081-BFC7E410A549">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>C70574F1-8500-4837-7655-A42BB3248BB7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F6A751C1-D5F6-48D2-4F30-0D5F4337F329</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pegawai_no_ktp" id="30302A66-03CA-220A-1E54-A3187564FAC2">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>C7276C91-8FFD-5AA5-6668-29BF94BBF778</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1230A370-C6D9-22B6-0DC4-D79503C1E899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A8FF8BD-CFCF-84AD-4FA6-B1C0DF68356B" referredColumn="4CD5D383-F7B4-2876-5E9E-8433DE693C07"/>
+</associations>
+</Column>
+<Column name="pegawai_nip" id="8FD897FC-CD43-14D0-17D4-C4F76BD99A78">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>36B2B112-D955-8441-7434-C3107A003611</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1230A370-C6D9-22B6-0DC4-D79503C1E899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A8FF8BD-CFCF-84AD-4FA6-B1C0DF68356B" referredColumn="4A95B014-03AD-E0C5-08A2-4BD70EED54D5"/>
+</associations>
+</Column>
+<Column name="pegawai_no_telepon" id="D90A1228-F2D3-AFE4-7B59-85CDF207F094">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>8177D85D-534E-610E-6144-19D51EB1DA3C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>62BF5419-07A7-AEC0-BEF4-DDE003985A6E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A8FF8BD-CFCF-84AD-4FA6-B1C0DF68356B" referredColumn="2C52C876-FA0D-848B-BD6C-4412178923B8"/>
+</associations>
+</Column>
+<Column name="pasien_id" id="2FC338FC-5E8D-5E44-D094-47DF98DD3E73">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>5E590A91-5453-2D71-4506-D68379F7C4AF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1230A370-C6D9-22B6-0DC4-D79503C1E899</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28706FD3-6403-1AF9-E292-281081F8D3CB" referredColumn="939FC41E-2EFA-1769-7FE0-4A12F2E52348"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96C82F8C-38C6-E237-04D8-79B833328DD4" name="jadwal__idx">
+<sourceDDLFile>DDL SIRUSAKDEH.ddl</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<importedID>DECCE1F0-0464-96BD-7F9F-AF05357BE72B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FC338FC-5E8D-5E44-D094-47DF98DD3E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2F11277-4164-66BA-904D-2461C1C59F79" name="jadwal_pasien_FK">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FC338FC-5E8D-5E44-D094-47DF98DD3E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BD0DEC7-97DF-E2C5-930B-82EE447A2B84" name="jadwal_pegawai_FK">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-24 01:02:54 UTC</createdTime>
+<ownerDesignName>SIRUSAKDEH YANG BENER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30302A66-03CA-220A-1E54-A3187564FAC2"/>
+<colUsage columnID="8FD897FC-CD43-14D0-17D4-C4F76BD99A78"/>
+<colUsage columnID="D90A1228-F2D3-AFE4-7B59-85CDF207F094"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
