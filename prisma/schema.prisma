@@ -13,10 +13,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model todolist {
-  id          int       @default(uuid())
-  title       String
-  detail      String
-  done        Boolean   @default(false)
-  createdaAt  DateTime  @default((now()))
+model todoList {
+  id        Int      @id @default(autoincrement())
+  nama      String
+  kelas     String
+  prodi     String
+  jurusan   String
+  done      Boolean  @default(false)
+  createdAt DateTime @default(now())
 }

@@ -1,16 +1,15 @@
-"use client"
-import Image from "next/image";
+import React from 'react'
 
-import Link from "next/link";
-
-
-export default function Home() {
-    function greetUser(){
-        alert("Halo");
-    }
+export default function List() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-    </main>
+    <>
+    <p> jadwal kegiatan sehari hari </p>
+      <ul>
+        <li>1.Bangun</li>
+        <li>2.Makan</li>
+        <li>3.Minum</li>
+        <li>4.Turu</li>
+      </ul>
+    </>
   )
 }

@@ -5,13 +5,11 @@ import { prisma } from '@/lib/prisma';
 export async function POST(req: NextRequest){
     
     const body = await req.json();
-    const {nama, kelas, prodi, jurusan} = body;
-    await prisma.todoList.create({
-        data: {
-            nama,
-            kelas,
-            prodi,
-            jurusan,
+    const {id} = body;
+    await prisma.todoList.delete({
+        where: {
+            id
         }
+
     })
 }

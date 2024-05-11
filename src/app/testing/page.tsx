@@ -1,18 +1,15 @@
-"use client"
-import Image from "next/image";
-
+import List from '@/components/List';
+import React from "react";
 import Link from "next/link";
 
-import List from '@/components/list'
 
-export default function Home() {
-    function greetUser(){
-        alert("Halo");
-    }
+export default function page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Link href={'/page.tsx'}>
-
-    </main>
+      <>
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">      
+          <List />
+          <Link href={'./'}>Home Page </Link> 
+        </main>
+      </>
   )
 }

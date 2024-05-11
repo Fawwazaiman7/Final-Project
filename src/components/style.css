@@ -1,0 +1,51 @@
+.buatParagraf{
+    text-align: center; font-family: 'Times New Roman', Times, serif;
+    /* ini adalah untuuk membuat teks paragraf saya ber-font-family times new roman dan berwarna hitam
+    juga terletak di posisi tengah */
+}
+
+
+
+.buatTabelNama{
+    background-color: darkcyan;  /* ini untuk membuat tabel nama saya berwarna tomat*/
+}
+
+.buatJudulTabel{
+    background-color: darkgreen; /* ini untuk membuat tabel judul saya berwarna kuning muda*/
+}
+
+.buatTabelTTL{
+    background-color: grey; /* ini untuk membuat tabel TTL saya berwarna aqua*/
+}
+
+.buatTabelJenisKelamin{
+    background-color: goldenrod;  /* ini untuk membuat tabel jenis kelamin saya berwarna emas*/
+}
+
+.buatTabelAlamat{
+    background-color: blueviolet;  /* ini untuk membuat tabel alamat saya berwarna biru violet*/
+}
+
+.buatTabelAgama{
+    background-color: coral;  /* ini untuk membuat tabel agama saya berwarna koral*/
+}
+
+.buatTabelPekerjaan{
+    background-color: burlywood;  /* ini untuk membuat tabel pekerjaan saya berwarna kayu*/
+}
+
+.buatTabelKewarganegaraan{
+    background-color: cornflowerblue;  /* ini untuk membuat tabel kewarganegaraan saya berwarna biru bunga jagung*/
+}
+
+.buatTabelKontak{
+    background-color: crimson;  /* ini untuk membuat tabel kontak saya berwarna merah crimson*/
+}
+
+.buatTabelHobi{
+    background-color: khaki;  /* ini untuk membuat tabel hobi saya berwarna khaki*/
+}
+
+.buatImage{
+    background-color: black;  /* ini untuk membuat tabel gambar saya berwarna hitam*/
+}
