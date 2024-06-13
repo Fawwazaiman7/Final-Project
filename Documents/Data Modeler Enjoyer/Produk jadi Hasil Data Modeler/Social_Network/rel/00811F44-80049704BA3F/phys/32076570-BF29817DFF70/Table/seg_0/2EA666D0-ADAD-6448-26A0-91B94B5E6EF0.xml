@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Grup" directorySegmentName="seg_0" id="2EA666D0-ADAD-6448-26A0-91B94B5E6EF0">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GrupID" id="21A6A0FB-2AFB-A7DF-9D6D-C254901D37DB">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NamaGrup" id="614CE8FA-69D4-EA37-6A98-CEFA32E92863">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Grup_PK" id="49B76FD0-6C3A-4DCD-7A3A-A7217D49BF01">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

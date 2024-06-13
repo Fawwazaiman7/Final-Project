@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21BB66CB-6C4D-17CE-3308-F2B130873E41" name="Anggota">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>D48EAF81-9502-7E2B-6CCD-405F8CC239BE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AnggotaID" id="96FCE12B-1F1E-F5F8-644B-22BB7455206F">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>30D054FE-0C09-DB4E-C14E-C6D40F88329D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ADCE4DBC-B209-D9D0-872A-7C88AD6BCE54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="31A2E356-1C08-7519-9F01-868D02480F0C">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>FD9D56F9-4F6F-01AC-C293-84F8B6440DC5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>21C2628C-5D3B-5B81-A94F-366932242D75</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="08E8AD4B-EB52-14C4-CCF5-3687B3E65746">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>9C468DFC-25BF-53A0-38D9-3268789B7D14</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>21C2628C-5D3B-5B81-A94F-366932242D75</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NamaDepan" id="33155DB1-1AFC-A9EE-BD1B-0D1E8D880CE5">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>50DC722C-3FE7-E896-F0E3-F31A765BED8F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1ACA7362-DBD8-3BA9-B8C1-2C74723DC40C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NamaBelakang" id="D0C2F765-37DB-BD0A-5502-4A0A2CE86E62">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>9F2758B4-D5F6-FF40-D9A5-9346C9804000</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1ACA7362-DBD8-3BA9-B8C1-2C74723DC40C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TanggalLahir" id="7751CA86-186F-79B1-0FCB-B2D05910C445">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>2488FF42-1988-0295-C79B-55CB258E5038</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>55344A3C-1C33-6510-A078-6FFA82EDBC7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JenisKelamin" id="DA424DFF-5B78-BE8B-1B2F-256AD9543FE4">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>5047CB8E-7857-B7C0-2125-47D979B1941E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>839B7686-869B-6827-CBBD-566634F8728A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TanggalBergabung" id="C2CD0E48-6DBC-3193-FAC1-EFCB714757B7">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>F9DF12DC-AA34-B48C-FC98-4F67C2F6B489</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>55344A3C-1C33-6510-A078-6FFA82EDBC7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agama" id="9BBA5A48-51EE-9ABB-5C6A-44A91E6F1D46">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>4014B66A-A003-E8A9-1AB7-8B7F57BEE12B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BBF4D13-88E4-774E-DE52-E2B9A0059456</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AliranPolitik" id="FA06EF6F-A60A-A9D2-8022-19FD6CAD59B6">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>E2D74B1F-6584-E923-F6BE-F9D7EF4D420F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5BBF4D13-88E4-774E-DE52-E2B9A0059456</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="DCB1BF99-C6AF-01B7-CA53-0733E9BE26F5">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>523BC2B7-060B-A702-48DD-87481449B9E8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>21C2628C-5D3B-5B81-A94F-366932242D75</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hubungan" id="6FD923AC-D618-9020-77D9-A7573DB16B5F">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>533D53F8-ACA4-F81D-1BF9-54A6FBECD532</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>95EC110D-0A35-2D99-3B47-CDC183B6A526</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95346F24-AE34-D665-D9EB-647D6AC1D6FB" name="Anggota_PK">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>6CD75FFE-1DA6-29BE-A556-A77C43AB88FE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96FCE12B-1F1E-F5F8-644B-22BB7455206F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

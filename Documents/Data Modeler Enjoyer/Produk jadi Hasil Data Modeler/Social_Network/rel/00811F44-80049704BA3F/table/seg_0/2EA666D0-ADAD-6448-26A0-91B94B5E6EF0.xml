@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EA666D0-ADAD-6448-26A0-91B94B5E6EF0" name="Grup">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>F4740A0E-6086-4E57-20BE-FB2932218094</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GrupID" id="21A6A0FB-2AFB-A7DF-9D6D-C254901D37DB">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>E0E259B4-BD76-A239-9059-00E0F8CA83AC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ADCE4DBC-B209-D9D0-872A-7C88AD6BCE54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NamaGrup" id="614CE8FA-69D4-EA37-6A98-CEFA32E92863">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>9F22AE9E-BD0D-54DD-AEB8-3AE44C84227C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1ACA7362-DBD8-3BA9-B8C1-2C74723DC40C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49B76FD0-6C3A-4DCD-7A3A-A7217D49BF01" name="Grup_PK">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>60391764-201A-E251-AF85-5D92080D22E3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21A6A0FB-2AFB-A7DF-9D6D-C254901D37DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

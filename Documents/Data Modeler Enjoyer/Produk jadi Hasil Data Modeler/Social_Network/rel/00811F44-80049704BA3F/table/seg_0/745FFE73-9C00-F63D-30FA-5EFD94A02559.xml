@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="745FFE73-9C00-F63D-30FA-5EFD94A02559" name="AnggotaAplikasi">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>5D59A08F-1F52-DAD6-54AF-9896BD8D1F9F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AnggotaID" id="DABE5931-AFD6-7C4B-3797-9829E08742AB">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>D5CCB4E0-704C-02C6-20DA-12BF3C9D8DCF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ADCE4DBC-B209-D9D0-872A-7C88AD6BCE54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBF95235-D308-86AF-0B75-2E4C899A5E48" referredColumn="96FCE12B-1F1E-F5F8-644B-22BB7455206F"/>
+</associations>
+</Column>
+<Column name="AplikasiID" id="17A10BD8-66A8-4722-6B8E-E1445F12F75D">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>F86B25DC-2FE9-6D26-BC95-BB6702A3D535</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ADCE4DBC-B209-D9D0-872A-7C88AD6BCE54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28925957-EE80-1C3D-99D6-B23B65911725" referredColumn="5C901436-F7E0-6569-D15E-C18065942ADF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C028881F-654F-7644-6B26-61FFBE98B4B5" name="AnggotaAplikasi_PK">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>01815418-ABCB-7530-60DA-9D39D04EF0B3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DABE5931-AFD6-7C4B-3797-9829E08742AB"/>
+<colUsage columnID="17A10BD8-66A8-4722-6B8E-E1445F12F75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B51AC1F-5AF7-8FEE-F752-3879BED28346" name="AnggotaAplikasi_Anggota_FK">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DABE5931-AFD6-7C4B-3797-9829E08742AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26548C94-FA5B-B181-5CE9-7D6287665B26" name="AnggotaAplikasi_Aplikasi_FK">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17A10BD8-66A8-4722-6B8E-E1445F12F75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

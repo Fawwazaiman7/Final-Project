@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7AFF13A-1355-90D9-A69A-C2052805BE14" containerWithKeyObject="36FDFD38-2617-F4D1-C9E7-5AF9C8E0E3B5" localFKIndex="0CB7A583-0661-96AA-EDD0-B0B5C320AB87" name="Pesan_Anggota_FKv1">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>DFCFE87D-FC0D-E650-2026-40E5B86940C3</importedID>
+<referredTableLongName>Anggota</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21BB66CB-6C4D-17CE-3308-F2B130873E41</referredTableID>
+<keyObject>95346F24-AE34-D665-D9EB-647D6AC1D6FB</keyObject>
+<referredKeyID>95346F24-AE34-D665-D9EB-647D6AC1D6FB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>AnggotaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

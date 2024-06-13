@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28925957-EE80-1C3D-99D6-B23B65911725" containerWithKeyObject="745FFE73-9C00-F63D-30FA-5EFD94A02559" localFKIndex="26548C94-FA5B-B181-5CE9-7D6287665B26" name="AnggotaAplikasi_Aplikasi_FK">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>3AD9D2B1-2DB3-A939-2E6E-783364D8CE67</importedID>
+<referredTableLongName>Aplikasi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C391441-38BA-AC18-451E-641514FA0A8C</referredTableID>
+<keyObject>84F7ABC4-F5F2-8DAB-0DAA-F4FCD0587965</keyObject>
+<referredKeyID>84F7ABC4-F5F2-8DAB-0DAA-F4FCD0587965</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AplikasiID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

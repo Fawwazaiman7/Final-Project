@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Social_Network" id="D8BC3A32-3264-0CD3-33F5-C03EFF379397" version="3.5">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:30:33 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D8BC3A32-3264-0CD3-33F5-C03EFF379397</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8EDCB743-B5E1-B95C-9AF1-B6ABFBF63727">
+<designStoragePath>C:\tesgpt</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

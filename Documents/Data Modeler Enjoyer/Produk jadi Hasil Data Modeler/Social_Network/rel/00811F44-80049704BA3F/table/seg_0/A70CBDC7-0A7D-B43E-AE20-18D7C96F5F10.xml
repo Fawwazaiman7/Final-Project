@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A70CBDC7-0A7D-B43E-AE20-18D7C96F5F10" name="AnggotaGrup">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>67434EE9-2644-56B2-D156-2090E08447BD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GrupID" id="1DC3C945-1B99-EACD-4585-39AA7061476E">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>A6878A8E-B589-5538-9FE9-2E992B090A78</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ADCE4DBC-B209-D9D0-872A-7C88AD6BCE54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A4C00CC-D9E9-47E6-EB17-7A63F8643B98" referredColumn="21A6A0FB-2AFB-A7DF-9D6D-C254901D37DB"/>
+</associations>
+</Column>
+<Column name="AnggotaID" id="D03AAB1D-615D-CE6F-A760-AECA4484DE69">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>9D412507-BB8F-BA25-317D-12B062E8FE60</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ADCE4DBC-B209-D9D0-872A-7C88AD6BCE54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="843AEF1C-2E0E-4232-CDF7-1B397B2BEA94" referredColumn="96FCE12B-1F1E-F5F8-644B-22BB7455206F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D648A35C-0B76-9BD2-8DBC-5DEF3B4398C0" name="AnggotaGrup_PK">
+<sourceDDLFile>tesgpt.sql</sourceDDLFile>
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<importedID>0A1ED9A0-EFE0-B37F-55D1-887EA648F57B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DC3C945-1B99-EACD-4585-39AA7061476E"/>
+<colUsage columnID="D03AAB1D-615D-CE6F-A760-AECA4484DE69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E021FBF-4570-FE50-0AEA-ACA53556793B" name="AnggotaGrup_Anggota_FK">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D03AAB1D-615D-CE6F-A760-AECA4484DE69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3911EA38-3639-CBDB-90D8-C87D593ACEFB" name="AnggotaGrup_Grup_FK">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>Social_Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DC3C945-1B99-EACD-4585-39AA7061476E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
