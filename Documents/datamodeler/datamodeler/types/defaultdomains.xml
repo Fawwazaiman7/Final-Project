@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Alamat" id="0556072C-1807-9450-24B2-89184A641A23">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 21:56:28 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Jadwal Praktek" id="162A8D13-8A12-FB7E-38F0-1C3944ADB220">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:01:45 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Nomor Telepon" id="168C99C6-FD13-F773-5FFC-D0A42B19E247">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 21:56:51 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>15</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Password" id="28898D76-65AF-FDE7-45D6-CE65B8428079">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 12:47:27 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Dosis" id="2E3D6E23-6776-F990-58F2-C8A984B4BE6D">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:11:18 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Pekerjaan" id="30F57C6C-BBC0-2DD6-C328-52AE2E2672ED">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:06:36 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Username" id="360D2EF8-0F47-5875-C0E6-96942ECAD180">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 12:44:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>128</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Nama Polikinik" id="47DC52DE-A601-FAAD-2A00-C4372DE8E113">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 21:59:47 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Keterangan Diagnosa" id="662F2987-82E5-9E52-3581-BBB8D245A068">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:09:07 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>200</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Harga" id="71F5AD50-A8CC-30BB-0FB3-0159D5BE950D">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:15:52 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>102</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Jenis Pembayaran" id="7474AE6E-DAFB-E66D-8D0C-851B6CE2707F">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:31:07 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Nomor Urut" id="799CE868-36D9-8CEF-5FD1-D57353211DB6">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:08:21 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Jumlah" id="7C2C0A65-51A1-E664-69AD-89B5C7946691">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:11:44 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="No RM" id="823D880C-BC4B-89B4-463E-EEA1236E1D4F">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:21:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Jenis Kelamin" id="8FBA3001-C2EE-427B-D3CC-43A50E871026">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:05:27 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Tanggal lahir" id="955E19D1-02C6-B314-C930-EB303EF29F12">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 21:55:51 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Bidang Spesialisasi" id="9DA8CE5D-2D58-833F-3FBE-B7E18A143037">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 21:59:19 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Tipe Pegawai" id="B6E146E3-D6A5-A724-B7E3-40F9DEEDFC8F">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 21:58:46 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Hubungan dengan Pasien" id="C1402C5A-DB1E-D36E-1800-A4C4EDCE522E">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:05:52 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Kota" id="D36718CF-B7A6-CAB4-B4CE-1C2F4DADD687">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 12:49:38 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>25</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Nama" id="D48E8199-A4BC-DA92-8402-3CB46A3E6019">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 12:43:24 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Identitas Pribadi" id="DA7C305C-A0CC-0C7E-C891-23D81B32547A">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:56:11 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-06-13 12:33:55 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Nama Alat/Obat" id="F268714F-9248-50FE-62F9-30D9E401AD7B">
+<createdBy>M Fawwaz</createdBy>
+<createdTime>2024-04-22 22:10:01 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
