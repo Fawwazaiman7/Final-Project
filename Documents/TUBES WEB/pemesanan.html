@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Paket Wisata</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles_pemesanan.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">UMKM Pariwisata</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar_paket.html">Daftar Paket Wisata</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pemesanan.html">Pemesanan Paket Wisata</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>UMKM Pariwisata</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="daftar_paket.html">Daftar Paket Wisata</a></li>
+                <li><a href="pemesanan.html">Pemesanan Paket Wisata</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2 class="text-center">Pemesanan Paket Wisata</h2>
+            
+            <form id="orderForm" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="tripDuration">Durasi Perjalanan (hari):</label>
+                    <input type="number" id="tripDuration" name="tripDuration" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="participantCount">Jumlah Peserta:</label>
+                    <input type="number" id="participantCount" name="participantCount" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="serviceType">Pilih Pelayanan Paket Perjalanan:</label>
+                    <select id="serviceType" name="serviceType" class="form-control" onchange="calculatePackagePrice()" required>
+                        <option value="">Pilih Pelayanan</option>
+                        <option value="penginapan">Penginapan</option>
+                        <option value="transportasi">Transportasi</option>
+                        <option value="makanan">Makanan</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="packagePrice">Harga Paket Perjalanan (Rp):</label>
+                    <input type="text" id="packagePrice" name="packagePrice" class="form-control" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label for="totalBill">Jumlah Tagihan (Rp):</label>
+                    <input type="text" id="totalBill" name="totalBill" class="form-control" readonly>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+
+            <p id="formMessage" class="text-center mt-3"></p>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <p>&copy; 2024 UMKM Pariwisata. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div id="modalBody">
+                <!-- Konten akan diisi di sini -->
+            </div>
+            <div class="footer-buttons">
+                <button id="pesan-lagi" class="yes">Pesan Lagi</button>
+                <button id="tidak" class="no" onclick="closeModal()">Tidak</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>

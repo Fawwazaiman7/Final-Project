@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - Liburan Pulau Komodo</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #505351;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        header {
+            color: rgb(233, 236, 244);
+            text-align: center;
+            padding: 50px 0;
+            margin-bottom: 50px;
+            background-color: #343a40;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .gallery-img {
+            transition: transform 0.3s;
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #c6edf2;
+            color: #006064;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        footer h5 {
+            color: #004d40;
+        }
+
+        footer a {
+            color: #00796b;
+        }
+
+        footer a:hover {
+            color: #004d40;
+        }
+
+        .footer-social a {
+            margin: 0 10px;
+            color: #0da795;
+            transition: color 0.3s;
+        }
+
+        .footer-social a:hover {
+            color: #004d40;
+        }
+
+        .container {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Liburan Pulau Komodo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar_paket.html">Paket Wisata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="buku_tamu.html">Buku Tamu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pemesanan.html">Pemesanan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Galeri</h1>
+    </header>
+
+    <main class="container mt-5">
+        <section>
+            <h2 class="text-center">Galeri Foto</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="images/galeri1.jpg" class="img-fluid gallery-img rounded" alt="Galeri 1">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/galeri2.jpg" class="img-fluid gallery-img rounded" alt="Galeri 2">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/galeri3.jpg" class="img-fluid gallery-img rounded" alt="Galeri 3">
+                </div>
+                <!-- Tambahkan lebih banyak gambar sesuai kebutuhan -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Tentang Kami</h5>
+                    <p>Liburan Pulau Komodo adalah penyedia paket wisata terkemuka untuk destinasi wisata Pulau Komodo dan sekitarnya.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Kontak</h5>
+                    <p>Email: info@pulaukomodo.com</p>
+                    <p>Telepon: +62 812 3456 7890</p>
+                </div>
+                <div class="col-md-4 footer-social">
+                    <h5>Ikuti Kami</h5>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <hr>
+            <p>&copy; 2024 Liburan Pulau Komodo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

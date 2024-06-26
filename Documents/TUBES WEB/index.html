@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liburan Pulau Komodo</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Images/background.jpeg'); /* Ganti dengan path gambar Anda */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Background tetap pada posisinya saat di-scroll */
+        }
+
+        .navbar {
+            position: relative;
+            top: 20;
+            height: 100px;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        header {
+            color: rgb(233, 236, 244);
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 50px; /* Jarak antara header dan main content */
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        main {
+            padding-top: 20px;
+            margin-bottom: 50px; /* Jarak antara main content dan footer */
+        }
+
+        .promo-item img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #c6edf2;
+            color: #006064;
+            padding: 30px 0;
+            margin-top: 50px; /* Jarak antara main content dan footer */
+        }
+
+        footer h5 {
+            color: #004d40;
+        }
+
+        footer a {
+            color: #00796b;
+        }
+
+        footer a:hover {
+            color: #004d40;
+        }
+
+        .footer-social a {
+            margin: 0 10px;
+            color: #0da795;
+            transition: color 0.3s;
+        }
+
+        .footer-social a:hover {
+            color: #004d40;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0); /* Warna background putih transparan */
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px; /* Jarak antara header dengan kontainer utama */
+            margin-bottom: 30px; /* Jarak antara footer dengan kontainer utama */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Liburan Pulau Komodo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar_paket.html">Paket Wisata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="buku_tamu.html">Buku Tamu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pemesanan.html">Pemesanan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Selamat Datang di Liburan Pulau Komodo!</h1>
+            <p>Temukan dan pesan paket wisata impian Anda di sini.</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <section class="text-center">
+            <h2>Paket Wisata Terbaru</h2>
+            <div class="row mt-4">
+                <!-- Contoh paket wisata -->
+                <div class="col-md-4 promo-item">
+                    <img src="Images/promo-1.jpeg" class="img-fluid rounded" alt="Promo 1">
+                    <p class="mt-2">Paket Wisata 1 - paket spesial seperti rasa sayang anda kepada pasangan</p>
+                </div>
+                <div class="col-md-4 promo-item">
+                    <img src="Images/promo-2.jpeg" class="img-fluid rounded" alt="Promo 2">
+                    <p class="mt-2">Paket Wisata 2 - paket istimewa seperti tatapan anda kepada pasangan</p>
+                </div>
+                <!-- Tambahkan lebih banyak promo sesuai kebutuhan -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Tentang Kami</h5>
+                    <p>Liburan Pulau Komodo adalah penyedia paket wisata terkemuka untuk destinasi wisata Pulau Komodo dan sekitarnya.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Kontak</h5>
+                    <p>Email: info@pulaukomodo.com</p>
+                    <p>Telepon: +62 812 3456 7890</p>
+                </div>
+                <div class="col-md-4 footer-social">
+                    <h5>Ikuti Kami</h5>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <hr>
+            <p>&copy; 2024 Liburan Pulau Komodo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

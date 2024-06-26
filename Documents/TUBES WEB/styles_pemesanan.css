@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #505351;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header {
+    color: rgb(233, 236, 244);
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    background-color: #343a40;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+}
+
+form button:hover {
+    background-color: #004d40;
+}
+
+footer {
+    background-color: #c6edf2;
+    color: #006064;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; 
+    border-radius: 10px;
+}
+
+.reservation-summary {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.header {
+    background-color: #4a90e2;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.content {
+    padding: 20px;
+    color: #333;
+}
+.content div {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
+.footer-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+.footer-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+.footer-buttons .yes {
+    background-color: #4a90e2;
+    color: white;
+}
+.footer-buttons .yes:hover {
+    background-color: #357ab7;
+}
+.footer-buttons .no {
+    background-color: #e94e77;
+    color: white;
+}
+.footer-buttons .no:hover {
+    background-color: #d43a5f;
+}

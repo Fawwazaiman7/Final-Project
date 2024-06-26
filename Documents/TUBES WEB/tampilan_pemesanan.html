@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangkuman Reservasi</title>
+    <link rel="stylesheet" href="style_tampilan_pemesanan.css">
+</head>
+<body>
+    <div class="reservation-summary">
+        <div id="header" class="header">
+            RANGKUMAN RESERVASI PAKET WISATA
+        </div>
+        <div id="content" class="content">
+            <div id="nama"><span>Nama</span>: <span id="popupNama"></span></div>
+            <div id="jumlah-peserta"><span>Jumlah Peserta</span>: <span id="popupJumlahPeserta"></span></div>
+            <div id="waktu-perjalanan"><span>Waktu Perjalanan</span>: <span id="popupWaktuPerjalanan"></span></div>
+            <div id="layanan-paket"><span>Jenis Layanan</span>: <span id="popupServiceType"></span></div>
+            <div id="harga-paket"><span>Harga Paket</span>: <span id="popupHargaPaket"></span></div>
+            <div id="jumlah-tagihan"><span>Jumlah Tagihan</span>: <span id="popupJumlahTagihan"></span></div>
+        </div>
+        <div id="footer" class="footer">
+            <button id="pesan-lagi" class="yes" onclick="window.parent.postMessage({ action: 'closeModal' }, '*');">Pesan Lagi</button>
+            <button id="tidak" class="no" onclick="window.parent.postMessage({ action: 'closeModal' }, '*');">Tidak</button>
+        </div>
+    </div>
+
+    <script>
+        // Ambil data dari URL
+        const urlParams = new URLSearchParams(window.location.search);
+        document.getElementById('popupNama').innerText = urlParams.get('nama');
+        document.getElementById('popupJumlahPeserta').innerText = urlParams.get('jumlahPeserta');
+        document.getElementById('popupWaktuPerjalanan').innerText = urlParams.get('waktuPerjalanan');
+        document.getElementById('popupServiceType').innerText = urlParams.get('serviceType');
+        document.getElementById('popupHargaPaket').innerText = urlParams.get('hargaPaket');
+        document.getElementById('popupJumlahTagihan').innerText = urlParams.get('jumlahTagihan');
+
+        // Send message to parent with the height of the content
+        window.parent.postMessage({ height: document.body.scrollHeight }, '*');
+    </script>
+</body>
+</html>
